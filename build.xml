@@ -74,11 +74,12 @@
             <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
         </unzip>
     </target>
-    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
-        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
-        <antcall target="build"/>
-    </target>
-              	<target name="war" description="Bundles the application as a WAR file" depends="clean, build">
+              	<target name="compile" depends="clean" description="compile the source ">
+              	        <javac includeantruntime="true" srcdir="${src}" destdir="${classes}" classpathref="project-classpath" />
+              	        <echo> Java file compiled and copied to classes folder !</echo>
+              	    </target>
+   
+              	<target name="war" description="Bundles the application as a WAR file" depends="compile">
               	    <mkdir dir="WebContent/WEB-INF/classes"/>
               	     
               	    <copy includeemptydirs="false" todir="WebContent/WEB-INF/classes">
@@ -95,4 +96,9 @@
               	        needxmlfile="false">
               	    </war>
               	</target>
+              	<target name="deploy" depends="war,clean">
+              	        <copy file="./build/DemoGit.war" todir="${BuildTest}" overwrite="true">
+              	        </copy>
+              	    </target>
+
 </project>
