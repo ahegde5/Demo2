@@ -84,6 +84,9 @@
               	    <copy includeemptydirs="false" todir="WebContent/WEB-INF/classes">
               	            <fileset dir="build/classes">
               	            <include name="**/*.class"/>
+              	            <include name="**/*.jsp" />
+              	            <include name="*/*.xml" />
+              	            <include name="**/*.jar" />
               	            </fileset>
               	    </copy>
               	     
