@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Demo1</title>
+<title>Demo</title>
 </head>
 <body>
-<H1>Git testing 1234!!</H1>
+<H1>Git testing 123!!</H1>
 </body>
 </html>
