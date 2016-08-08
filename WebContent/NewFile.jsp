@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Demo1</title>
+<title>Demo Jenkins</title>
 </head>
 <body>
-<H1>Welocome CSC</H1>
+<H1>Welocome</H1>
 </body>
 </html>
