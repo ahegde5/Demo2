@@ -7,6 +7,6 @@
 <title>Demo Jenkins</title>
 </head>
 <body>
-<H1>Welocome to CSC</H1>
+<H1>Welocome to CSC user</H1>
 </body>
 </html>
