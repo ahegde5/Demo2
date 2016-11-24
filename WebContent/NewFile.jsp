@@ -7,6 +7,6 @@
 <title>Jenkins</title>
 </head>
 <body>
-<H1>Welocome to CSC</H1>
+<H1>Welocome</H1>
 </body>
 </html>
