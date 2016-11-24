@@ -7,6 +7,6 @@
 <title>Jenkins</title>
 </head>
 <body>
-<H1>Welocome to the session</H1>
+<H1>Welocome to the session </H1>
 </body>
 </html>
