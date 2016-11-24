@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Jenkins Demo</title>
+<title>Jenkins</title>
 </head>
 <body>
 <H1>Welocome to CSC</H1>
