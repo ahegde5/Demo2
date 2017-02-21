@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Jenkins demo 2</title>
+<title>Jenkins</title>
 </head>
 <body>
-<H1>Welocome to the session </H1>
+<H1>Welcome to the session </H1>
 </body>
 </html>
